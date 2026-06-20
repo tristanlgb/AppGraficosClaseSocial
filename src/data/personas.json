@@ -1,0 +1,17 @@
+[
+  { "nombre": "Juan", "apellido": "Pérez", "edad": 25, "sexo": "Hombre", "claseSocial": "Media", "anio": 2016 },
+  { "nombre": "María", "apellido": "Gómez", "edad": 32, "sexo": "Mujer", "claseSocial": "Alta", "anio": 2016 },
+  { "nombre": "Carlos", "apellido": "López", "edad": 41, "sexo": "Hombre", "claseSocial": "Baja", "anio": 2016 },
+  { "nombre": "Lucía", "apellido": "Fernández", "edad": 22, "sexo": "Mujer", "claseSocial": "Media", "anio": 2016 },
+  { "nombre": "Diego", "apellido": "Martínez", "edad": 36, "sexo": "Hombre", "claseSocial": "Media", "anio": 2016 },
+  { "nombre": "Sofía", "apellido": "Ruiz", "edad": 28, "sexo": "Mujer", "claseSocial": "Alta", "anio": 2016 },
+  { "nombre": "Mateo", "apellido": "Díaz", "edad": 19, "sexo": "Hombre", "claseSocial": "Baja", "anio": 2016 },
+  { "nombre": "Camila", "apellido": "Sosa", "edad": 45, "sexo": "Mujer", "claseSocial": "Media", "anio": 2016 },
+  { "nombre": "Tomás", "apellido": "Acosta", "edad": 52, "sexo": "Hombre", "claseSocial": "Alta", "anio": 2016 },
+  { "nombre": "Valentina", "apellido": "Torres", "edad": 30, "sexo": "Mujer", "claseSocial": "Baja", "anio": 2016 },
+  { "nombre": "Nicolás", "apellido": "Molina", "edad": 27, "sexo": "Hombre", "claseSocial": "Media", "anio": 2016 },
+  { "nombre": "Florencia", "apellido": "Castro", "edad": 38, "sexo": "Mujer", "claseSocial": "Alta", "anio": 2016 },
+  { "nombre": "Agustín", "apellido": "Romero", "edad": 24, "sexo": "Hombre", "claseSocial": "Baja", "anio": 2016 },
+  { "nombre": "Martina", "apellido": "Silva", "edad": 33, "sexo": "Mujer", "claseSocial": "Media", "anio": 2016 },
+  { "nombre": "Federico", "apellido": "Herrera", "edad": 47, "sexo": "Hombre", "claseSocial": "Alta", "anio": 2016 }
+]

@@ -1,0 +1,17 @@
+[
+  { "nombre": "Pedro", "apellido": "Luna", "edad": 29, "sexo": "Hombre", "claseSocial": "Media", "anio": 2024 },
+  { "nombre": "Ana", "apellido": "Vega", "edad": 35, "sexo": "Mujer", "claseSocial": "Media", "anio": 2024 },
+  { "nombre": "Luis", "apellido": "Ramos", "edad": 44, "sexo": "Hombre", "claseSocial": "Baja", "anio": 2024 },
+  { "nombre": "Paula", "apellido": "Núñez", "edad": 26, "sexo": "Mujer", "claseSocial": "Baja", "anio": 2024 },
+  { "nombre": "Bruno", "apellido": "Paz", "edad": 31, "sexo": "Hombre", "claseSocial": "Baja", "anio": 2024 },
+  { "nombre": "Julieta", "apellido": "Rey", "edad": 23, "sexo": "Mujer", "claseSocial": "Media", "anio": 2024 },
+  { "nombre": "Gonzalo", "apellido": "Funes", "edad": 39, "sexo": "Hombre", "claseSocial": "Alta", "anio": 2024 },
+  { "nombre": "Rocío", "apellido": "Medina", "edad": 42, "sexo": "Mujer", "claseSocial": "Media", "anio": 2024 },
+  { "nombre": "Iván", "apellido": "Arias", "edad": 21, "sexo": "Hombre", "claseSocial": "Baja", "anio": 2024 },
+  { "nombre": "Micaela", "apellido": "Leiva", "edad": 34, "sexo": "Mujer", "claseSocial": "Media", "anio": 2024 },
+  { "nombre": "Ezequiel", "apellido": "Cano", "edad": 48, "sexo": "Hombre", "claseSocial": "Baja", "anio": 2024 },
+  { "nombre": "Daniela", "apellido": "Ibarra", "edad": 37, "sexo": "Mujer", "claseSocial": "Alta", "anio": 2024 },
+  { "nombre": "Santiago", "apellido": "Méndez", "edad": 53, "sexo": "Hombre", "claseSocial": "Media", "anio": 2024 },
+  { "nombre": "Carolina", "apellido": "Ortiz", "edad": 40, "sexo": "Mujer", "claseSocial": "Baja", "anio": 2024 },
+  { "nombre": "Ramiro", "apellido": "Suárez", "edad": 28, "sexo": "Hombre", "claseSocial": "Media", "anio": 2024 }
+]

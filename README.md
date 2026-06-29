@@ -1,73 +1,46 @@
-# React + TypeScript + Vite
+# Visualización de clases sociales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web que transforma datos demográficos en visualizaciones fáciles de interpretar. La interfaz presenta información sobre personas y clases sociales mediante gráficos y secciones informativas responsivas.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Lectura de datasets locales en formato JSON.
+- Visualización de datos con gráficos interactivos.
+- Navegación entre inicio, información y contacto.
+- Interfaz adaptable construida con componentes reutilizables.
 
-## React Compiler
+## Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- TypeScript
+- Vite
+- Chart.js y React Chart.js 2
+- React Bootstrap y Bootstrap
+- ESLint
 
-## Expanding the ESLint configuration
+## Organización
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- `src/data/`: datasets utilizados por la aplicación.
+- `src/components/Home.tsx`: contenido principal y visualizaciones.
+- `src/components/NavbarApp.tsx`: navegación.
+- `src/components/AboutUs.tsx` y `Contact.tsx`: secciones informativas.
+- `src/App.tsx`: composición general de la página.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Ejecución local
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Abrir la dirección indicada por Vite, normalmente `http://localhost:5173`.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Comandos
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm run build    # genera la versión de producción
+npm run lint     # analiza el código
+npm run preview  # previsualiza el build
 ```
+
+> Proyecto educativo de visualización de datos con React y TypeScript.
